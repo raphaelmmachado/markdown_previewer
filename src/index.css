@@ -25,7 +25,7 @@ header {
 .output {
   min-width: 60rem;
 }
-#previewer {
+#preview {
   background-color: azure;
   min-width: 60rem;
   min-height: 20rem;
@@ -37,4 +37,8 @@ textarea {
   min-height: 10rem;
   padding: 0.5rem;
   font-size: 1rem;
+}
+svg,
+img {
+  max-width: 30rem;
 }
