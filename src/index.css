@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 2rem;
+}
+header {
+  width: 100%;
+  background-color: cadetblue;
+  color: black;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0.25rem;
+}
+.output {
+  min-width: 60rem;
+}
+#previewer {
+  background-color: azure;
+  min-width: 60rem;
+  min-height: 20rem;
+  padding: 1rem;
+}
+textarea {
+  background-color: azure;
+  width: 30rem;
+  min-height: 10rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
